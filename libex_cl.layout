@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+    <ActiveTarget name="debug_unicode Win32" />
+    <File name="_libfile.cpp" open="0" top="0" tabpos="0">
+        <Cursor position="410" topLine="0" />
+    </File>
+    <File name="_libfile.h" open="0" top="0" tabpos="0">
+        <Cursor position="570" topLine="6" />
+    </File>
+    <File name="resource.h" open="0" top="0" tabpos="3">
+        <Cursor position="0" topLine="0" />
+    </File>
+    <File name="libex_c_precompiled_oop.hpp" open="0" top="0" tabpos="4">
+        <Cursor position="0" topLine="0" />
+    </File>
+    <File name="..\_library\libex_byte_array.hpp" open="0" top="0" tabpos="0">
+        <Cursor position="476" topLine="0" />
+    </File>
+    <File name="..\_library\libex_dtime.c" open="0" top="0" tabpos="2">
+        <Cursor position="29669" topLine="882" />
+    </File>
+    <File name="..\_library\libex_dtime.hh" open="0" top="0" tabpos="1">
+        <Cursor position="9352" topLine="217" />
+    </File>
+    <File name="..\_library\libex_data_table.cpp" open="0" top="0" tabpos="0">
+        <Cursor position="3124" topLine="69" />
+    </File>
+    <File name="..\_library\libex_data_table.hpp" open="0" top="0" tabpos="3">
+        <Cursor position="2435" topLine="74" />
+    </File>
+    <File name="..\_library\libex_chart_window.cpp" open="0" top="0" tabpos="3">
+        <Cursor position="4620" topLine="133" />
+    </File>
+    <File name="..\_library\libex_text_cell.cpp" open="0" top="0" tabpos="5">
+        <Cursor position="3373" topLine="88" />
+    </File>
+    <File name="..\_library\libex_canvas.c" open="0" top="0" tabpos="0">
+        <Cursor position="15359" topLine="505" />
+    </File>
+    <File name="..\_library\libex_system.cpp" open="0" top="0" tabpos="0">
+        <Cursor position="2325" topLine="47" />
+    </File>
+    <File name="..\_library\sqlite3.c" open="0" top="0" tabpos="5">
+        <Cursor position="432159" topLine="9942" />
+    </File>
+</CodeBlocks_layout_file>

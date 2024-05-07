@@ -1,0 +1,14 @@
+# ^^formats.txt
+# [FormatName]  [FormatText]   in [FormatT]
+
+CHECK:    fillcolor="Red"   shape="square"
+REMOVE:   fillcolor="Red"   shape="square"
+
+MACRO:    fillcolor="Lavender"
+PRIVATE:  fillcolor="Lavender"
+
+STANDARD: fillcolor="Gold"     shape="cds"
+LINUX:    fillcolor="Orange"   shape="cds"
+WIN32:    fillcolor="Tomato"   shape="cds"
+
+#eof#

@@ -1,0 +1,838 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="General">
+      <UniqueIdentifier>{8440fd4b-95eb-411b-ab9b-f168d775cfa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="User_Interface">
+      <UniqueIdentifier>{ebb3e21f-3552-4f5e-a05b-bcf59bfc784e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{820abd61-9326-43c5-bf28-1df82b6608fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{54d05bda-eb21-4903-9804-8ca45b0faf6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{dcb01078-730f-4ac0-8ab4-afca379c439a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Files">
+      <UniqueIdentifier>{b5da6e27-2a44-45d3-95c8-323c959bd8bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Printing">
+      <UniqueIdentifier>{4f5780ea-0588-46ed-ae23-0f6248f9facc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__Precompiled_Headers">
+      <UniqueIdentifier>{d86dabf2-2867-421d-b10f-d845269d7efb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__Libraries">
+      <UniqueIdentifier>{6a7172dd-0da3-416e-8ec7-8560685c09fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__Libraries\zlib">
+      <UniqueIdentifier>{ef251c90-9ae3-4864-a1dd-47ad15652885}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__Libraries\zlib\h">
+      <UniqueIdentifier>{0e83309a-c8a5-473a-ad07-f4d03b02fe62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__Libraries\zlib\c">
+      <UniqueIdentifier>{740370df-aeea-4039-bb2d-29b3ba243f46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__Libraries\zlib\pch">
+      <UniqueIdentifier>{f996452c-be51-4d40-bb56-9b883164dc8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__Libraries\lib_sqlite3">
+      <UniqueIdentifier>{180a32ca-e6ff-4832-9081-28d296c1308b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__Libraries\lib_sqlite3\pch">
+      <UniqueIdentifier>{a4935f17-8403-44f1-89aa-9a6ea5ece105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__Libraries\lib_png">
+      <UniqueIdentifier>{a48963d0-1ffc-40c1-b2f3-8118ae1c32a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__Libraries\lib_png\h">
+      <UniqueIdentifier>{d85b671b-15e3-4d9f-8400-0b6232fa3eaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__Libraries\lib_png\c">
+      <UniqueIdentifier>{521d42af-9209-47b9-96de-db3c360216b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__Libraries\lib_png\pch">
+      <UniqueIdentifier>{61923d16-ac16-4c6e-993f-554290c3edcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__Libraries\lib_jpeg">
+      <UniqueIdentifier>{2c1bbfc4-2e47-49b6-8aa0-e11eb1f65fbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__Libraries\lib_jpeg\h">
+      <UniqueIdentifier>{9c476dd7-6e25-4a5b-8d8c-74c0bd041da9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__Libraries\lib_jpeg\h\config">
+      <UniqueIdentifier>{d38f2ffa-00be-42f2-8a51-cc170363eae3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__Libraries\lib_jpeg\c">
+      <UniqueIdentifier>{21b5f718-bb3f-4506-bfc5-816c7c6b6b4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__Libraries\lib_jpeg\c\excluded_utilities">
+      <UniqueIdentifier>{192d8cf0-7bce-4d17-9d49-63f413872c7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__Libraries\lib_jpeg\pch">
+      <UniqueIdentifier>{1756b48b-a177-498d-b622-636e7e3252d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="__Refactor">
+      <UniqueIdentifier>{21f600ea-5e17-40a9-9a27-3e2d2f8c6c1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HTML">
+      <UniqueIdentifier>{34b49d0c-3fbe-4698-afed-517f69a0fb5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Database">
+      <UniqueIdentifier>{774e1243-5d4d-44e7-8ccc-e29707b130a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{04b1ac03-ce6f-415f-8dd4-6da31bf433da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Files\__Documents">
+      <UniqueIdentifier>{26a37688-d97b-4bbf-bbf0-c7f4b5a07960}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="libex_crypto.c">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="libex_hash.c">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="libex_language.c">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="libex_dtime.c">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="libex_canvas.c">
+      <Filter>User_Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="libex_color.c">
+      <Filter>User_Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="libex_logging.c">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="libex_console.c">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_zlib\adler32.c">
+      <Filter>__Libraries\zlib\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_zlib\compress.c">
+      <Filter>__Libraries\zlib\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_zlib\crc32.c">
+      <Filter>__Libraries\zlib\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_zlib\deflate.c">
+      <Filter>__Libraries\zlib\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_zlib\gzclose.c">
+      <Filter>__Libraries\zlib\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_zlib\gzlib.c">
+      <Filter>__Libraries\zlib\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_zlib\gzread.c">
+      <Filter>__Libraries\zlib\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_zlib\gzwrite.c">
+      <Filter>__Libraries\zlib\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_zlib\infback.c">
+      <Filter>__Libraries\zlib\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_zlib\inffast.c">
+      <Filter>__Libraries\zlib\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_zlib\inflate.c">
+      <Filter>__Libraries\zlib\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_zlib\inftrees.c">
+      <Filter>__Libraries\zlib\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_zlib\trees.c">
+      <Filter>__Libraries\zlib\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_zlib\uncompr.c">
+      <Filter>__Libraries\zlib\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_zlib\zutil.c">
+      <Filter>__Libraries\zlib\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_zlib\lib_zlib_precompiled.c">
+      <Filter>__Libraries\zlib\pch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_sqlite3\lib_sqlite3_precompiled.c">
+      <Filter>__Libraries\lib_sqlite3\pch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_png\png.c">
+      <Filter>__Libraries\lib_png\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_png\pngerror.c">
+      <Filter>__Libraries\lib_png\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_png\pngget.c">
+      <Filter>__Libraries\lib_png\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_png\pngmem.c">
+      <Filter>__Libraries\lib_png\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_png\pngpread.c">
+      <Filter>__Libraries\lib_png\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_png\pngread.c">
+      <Filter>__Libraries\lib_png\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_png\pngrio.c">
+      <Filter>__Libraries\lib_png\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_png\pngrtran.c">
+      <Filter>__Libraries\lib_png\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_png\pngrutil.c">
+      <Filter>__Libraries\lib_png\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_png\pngset.c">
+      <Filter>__Libraries\lib_png\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_png\pngtest.c">
+      <Filter>__Libraries\lib_png\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_png\pngtrans.c">
+      <Filter>__Libraries\lib_png\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_png\pngwio.c">
+      <Filter>__Libraries\lib_png\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_png\pngwrite.c">
+      <Filter>__Libraries\lib_png\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_png\pngwtran.c">
+      <Filter>__Libraries\lib_png\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_png\pngwutil.c">
+      <Filter>__Libraries\lib_png\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_png\lib_png_precompiled.c">
+      <Filter>__Libraries\lib_png\pch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\cdjpeg.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\djpeg.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\jaricom.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\jcapimin.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\jcapistd.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\jcarith.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\jccoefct.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\jccolor.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\jcdctmgr.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\jchuff.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\jcinit.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\jcmainct.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\jcmarker.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\jcmaster.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\jcomapi.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\jcparam.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\jcprepct.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\jcsample.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\jctrans.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\jdapimin.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\jdapistd.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\jdarith.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\jdatadst.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\jdatasrc.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\jdcoefct.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\jdcolor.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\jddctmgr.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\jdhuff.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\jdinput.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\jdmainct.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\jdmarker.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\jdmaster.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\jdmerge.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\jdpostct.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\jdsample.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\jdtrans.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\jerror.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\jfdctflt.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\jfdctfst.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\jfdctint.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\jidctflt.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\jidctfst.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\jidctint.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\jmemmgr.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\jmemnobs.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\jquant1.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\jquant2.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\jutils.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\rdbmp.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\rdcolmap.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\rdgif.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\rdppm.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\rdrle.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\rdswitch.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\rdtarga.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\transupp.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\wrbmp.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\wrgif.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\wrppm.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\wrrle.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\wrtarga.c">
+      <Filter>__Libraries\lib_jpeg\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\excluded_cjpeg.c">
+      <Filter>__Libraries\lib_jpeg\c\excluded_utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\excluded_ckconfig.c">
+      <Filter>__Libraries\lib_jpeg\c\excluded_utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\excluded_jmemansi.c">
+      <Filter>__Libraries\lib_jpeg\c\excluded_utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\excluded_jmemdos.c">
+      <Filter>__Libraries\lib_jpeg\c\excluded_utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\excluded_jmemmac.c">
+      <Filter>__Libraries\lib_jpeg\c\excluded_utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\excluded_jmemname.c">
+      <Filter>__Libraries\lib_jpeg\c\excluded_utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\excluded_jpegtran.c">
+      <Filter>__Libraries\lib_jpeg\c\excluded_utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\excluded_rdjpgcom.c">
+      <Filter>__Libraries\lib_jpeg\c\excluded_utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\excluded_wrjpgcom.c">
+      <Filter>__Libraries\lib_jpeg\c\excluded_utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_jpeg\lib_jpeg_precompiled.c">
+      <Filter>__Libraries\lib_jpeg\pch</Filter>
+    </ClCompile>
+    <ClCompile Include="libex_network.c">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="libex_libc.c" />
+    <ClCompile Include="libex_clipboard.c">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="libex_font.c">
+      <Filter>User_Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="libex_file.c">
+      <Filter>Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libex_archive.c">
+      <Filter>Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libex_key.c">
+      <Filter>User_Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="libex_pdf.c">
+      <Filter>Printing</Filter>
+    </ClCompile>
+    <ClCompile Include="libex_ado_connection_oop.cpp">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="libex_variant_functions.c">
+      <Filter>Database</Filter>
+    </ClCompile>
+    <ClCompile Include="libex_http_server.c">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="libex_pdf_report.c">
+      <Filter>Printing</Filter>
+    </ClCompile>
+    <ClCompile Include="libex_mutex.c">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="libex_system.c">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="libex_functions.c">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="libex_win_registry.c">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="libex_c_precompiled.c">
+      <Filter>__Precompiled_Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="libex_c_precompiled_oop.cpp">
+      <Filter>__Precompiled_Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="libex_point.c">
+      <Filter>__Refactor</Filter>
+    </ClCompile>
+    <ClCompile Include="libex_html_functions.c">
+      <Filter>HTML</Filter>
+    </ClCompile>
+    <ClCompile Include="libex_html_list.c">
+      <Filter>HTML</Filter>
+    </ClCompile>
+    <ClCompile Include="libex_html_generator.c">
+      <Filter>HTML</Filter>
+    </ClCompile>
+    <ClCompile Include="libex_csv.c">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="libex_array.c">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="libex_byte_array.c">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="libex_bytes.c">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="libex_stringc.c">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="libex_number.c">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="libex_string_class.c">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="libex_xml_reader.c">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="libex_http_app.c" />
+    <ClCompile Include="libex_win32.c">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\clibs\lib_sqlite3\sqlite3.c">
+      <Filter>__Libraries\lib_sqlite3</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libex_crypto.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_hash.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_hash.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_language.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_language.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_dtime.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_dtime.hh">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_canvas.h">
+      <Filter>User_Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_canvas.hpp">
+      <Filter>User_Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_canvas_i.hpp">
+      <Filter>User_Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_color.h">
+      <Filter>User_Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_color.hpp">
+      <Filter>User_Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_logging.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_logging.hpp">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_console.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_console.hpp">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_ado_connection.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\clibs\lib_zlib\crc32.h">
+      <Filter>__Libraries\zlib\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\clibs\lib_zlib\deflate.h">
+      <Filter>__Libraries\zlib\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\clibs\lib_zlib\gzguts.h">
+      <Filter>__Libraries\zlib\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\clibs\lib_zlib\inffast.h">
+      <Filter>__Libraries\zlib\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\clibs\lib_zlib\inffixed.h">
+      <Filter>__Libraries\zlib\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\clibs\lib_zlib\inflate.h">
+      <Filter>__Libraries\zlib\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\clibs\lib_zlib\inftrees.h">
+      <Filter>__Libraries\zlib\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\clibs\lib_zlib\trees.h">
+      <Filter>__Libraries\zlib\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\clibs\lib_zlib\zconf.h">
+      <Filter>__Libraries\zlib\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\clibs\lib_zlib\zlib.h">
+      <Filter>__Libraries\zlib\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\clibs\lib_zlib\zutil.h">
+      <Filter>__Libraries\zlib\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\clibs\lib_zlib\lib_zlib_precompiled.h">
+      <Filter>__Libraries\zlib\pch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\clibs\lib_sqlite3\lib_sqlite3_precompiled.h">
+      <Filter>__Libraries\lib_sqlite3\pch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\clibs\lib_png\png.h">
+      <Filter>__Libraries\lib_png\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\clibs\lib_png\pngconf.h">
+      <Filter>__Libraries\lib_png\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\clibs\lib_png\pngdebug.h">
+      <Filter>__Libraries\lib_png\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\clibs\lib_png\pnginfo.h">
+      <Filter>__Libraries\lib_png\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\clibs\lib_png\pnglibconf.h">
+      <Filter>__Libraries\lib_png\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\clibs\lib_png\pngpriv.h">
+      <Filter>__Libraries\lib_png\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\clibs\lib_png\pngstruct.h">
+      <Filter>__Libraries\lib_png\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\clibs\lib_png\lib_png_precompiled.h">
+      <Filter>__Libraries\lib_png\pch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\clibs\lib_jpeg\cderror.h">
+      <Filter>__Libraries\lib_jpeg\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\clibs\lib_jpeg\cdjpeg.h">
+      <Filter>__Libraries\lib_jpeg\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\clibs\lib_jpeg\jdct.h">
+      <Filter>__Libraries\lib_jpeg\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\clibs\lib_jpeg\jerror.h">
+      <Filter>__Libraries\lib_jpeg\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\clibs\lib_jpeg\jinclude.h">
+      <Filter>__Libraries\lib_jpeg\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\clibs\lib_jpeg\jmemsys.h">
+      <Filter>__Libraries\lib_jpeg\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\clibs\lib_jpeg\jmorecfg.h">
+      <Filter>__Libraries\lib_jpeg\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\clibs\lib_jpeg\jpegint.h">
+      <Filter>__Libraries\lib_jpeg\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\clibs\lib_jpeg\jpeglib.h">
+      <Filter>__Libraries\lib_jpeg\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\clibs\lib_jpeg\jversion.h">
+      <Filter>__Libraries\lib_jpeg\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\clibs\lib_jpeg\transupp.h">
+      <Filter>__Libraries\lib_jpeg\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\clibs\lib_jpeg\jconfig.h">
+      <Filter>__Libraries\lib_jpeg\h\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\clibs\lib_jpeg\lib_jpeg_precompiled.h">
+      <Filter>__Libraries\lib_jpeg\pch</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_network.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_base.h" />
+    <ClInclude Include="libex_internal.h" />
+    <ClInclude Include="libex_libc.h" />
+    <ClInclude Include="libex_clipboard.hpp">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_clipboard.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_property.hpp" />
+    <ClInclude Include="libex_font.h">
+      <Filter>User_Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_file.h">
+      <Filter>Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_file.hpp">
+      <Filter>Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_archive.hpp">
+      <Filter>Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_archive.h">
+      <Filter>Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_key.hpp">
+      <Filter>User_Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_key.h">
+      <Filter>User_Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_pdf.h">
+      <Filter>Printing</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_variant_functions.h">
+      <Filter>Database</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_http_server.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_pdf_report.h">
+      <Filter>Printing</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_mutex.hpp">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_mutex.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_system.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_point.h">
+      <Filter>__Refactor</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_functions.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_functions.h">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_system.hpp">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_win_registry.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_font.hpp">
+      <Filter>User_Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_font.hpp">
+      <Filter>User_Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_font.hpp">
+      <Filter>User_Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_c_precompiled.h">
+      <Filter>__Precompiled_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_c_precompiled_oop.hpp">
+      <Filter>__Precompiled_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_html_functions.h">
+      <Filter>HTML</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_html_list.h">
+      <Filter>HTML</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_html_generator.h">
+      <Filter>HTML</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_csv.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_array.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_byte_array.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_byte_array.hpp">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_bytes.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_stringc.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_number.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_string_class.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_xml_reader.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="libex_http_app.h" />
+    <ClInclude Include="libex_ignore_warnings.h" />
+    <ClInclude Include="libex_win32.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\clibs\lib_sqlite3\sqlite3.h">
+      <Filter>__Libraries\lib_sqlite3</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\plan_todo.txt">
+      <Filter>Files\__Documents</Filter>
+    </Text>
+    <Text Include="libex_changes.txt">
+      <Filter>Files\__Documents</Filter>
+    </Text>
+    <Text Include="libex_ideas.txt">
+      <Filter>Files\__Documents</Filter>
+    </Text>
+    <Text Include="..\..\clibs\lib_zlib\lib_zlib_readme.txt">
+      <Filter>__Libraries\zlib</Filter>
+    </Text>
+    <Text Include="libex_readme.txt" />
+    <Text Include="..\plan_done.txt">
+      <Filter>Files\__Documents</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="libex_graphic_types.h">
+      <Filter>__Refactor</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

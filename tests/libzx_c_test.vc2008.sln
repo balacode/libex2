@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libex_c_test", "libex_c_test.vc2008.vcproj", "{1BDA6F39-577D-46EF-894D-7762EA0FE4F8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		DEBUG_STATL|Win32 = DEBUG_STATL|Win32
+		RELEASE_STATL|Win32 = RELEASE_STATL|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BDA6F39-577D-46EF-894D-7762EA0FE4F8}.DEBUG_STATL|Win32.ActiveCfg = DEBUG_STATL|Win32
+		{1BDA6F39-577D-46EF-894D-7762EA0FE4F8}.DEBUG_STATL|Win32.Build.0 = DEBUG_STATL|Win32
+		{1BDA6F39-577D-46EF-894D-7762EA0FE4F8}.RELEASE_STATL|Win32.ActiveCfg = RELEASE_STATL|Win32
+		{1BDA6F39-577D-46EF-894D-7762EA0FE4F8}.RELEASE_STATL|Win32.Build.0 = RELEASE_STATL|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

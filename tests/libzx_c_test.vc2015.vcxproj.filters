@@ -1,0 +1,510 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="libs">
+      <UniqueIdentifier>{65856eda-b04e-40b8-acbc-19ee8b25afdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\zlib">
+      <UniqueIdentifier>{93bf41fb-99a4-4d0e-86ef-dda0328fcdd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\zlib\c">
+      <UniqueIdentifier>{851c2ccd-85ec-49e5-a35b-422436752097}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\zlib\h">
+      <UniqueIdentifier>{edd4fb7e-3ef6-4fbe-9287-97b4253d4832}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\zlib\pch">
+      <UniqueIdentifier>{4d7068a7-d919-46a7-aa8d-386e6fbd59d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\sqlite">
+      <UniqueIdentifier>{b66a5ba2-0dc3-4ef8-b8e4-e6b35427f950}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\sqlite\pch">
+      <UniqueIdentifier>{f40a77d9-1c26-4a11-b55f-c9171ae023f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="other">
+      <UniqueIdentifier>{67c85e74-7952-48e6-bf08-3be025edfa01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libex_cl">
+      <UniqueIdentifier>{aca8ea7c-783d-48e0-8c3c-f5056b2c8b21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libex\__Precompiled_Headers">
+      <UniqueIdentifier>{d14a1ecb-4c05-4142-a3dd-497a958eff54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libex\Data">
+      <UniqueIdentifier>{db283a44-1a7e-49ab-9cb4-751945af0904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libex\Files">
+      <UniqueIdentifier>{ff95f8fb-f754-4b38-af69-53d4232de23d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libex\Network">
+      <UniqueIdentifier>{6ee74148-1f6e-4ae0-9efe-892c00a4b673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libex\Printing">
+      <UniqueIdentifier>{3dd53d41-dddb-4288-96a7-6d00ce69b0eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libex\System">
+      <UniqueIdentifier>{bac6e9fc-91d1-4d67-8ef9-3b472bbd6099}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libex\Database">
+      <UniqueIdentifier>{990cfce4-9ce9-49b2-9555-e2430d8a62f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libex\__Unsorted">
+      <UniqueIdentifier>{fc59c1d9-3046-4bc2-80c4-30e3028dfcde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libex\Utility">
+      <UniqueIdentifier>{e8c719e7-0106-43e4-a258-b3ce49d21c20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libex\HTML">
+      <UniqueIdentifier>{6eac1d07-9d51-4ada-9f8f-d156c43166a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libex\General">
+      <UniqueIdentifier>{d9e72cda-aa81-4c1f-8643-27c9be83a9dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="txt">
+      <UniqueIdentifier>{6b92c707-4b67-45b8-883f-394c98c8e139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests">
+      <UniqueIdentifier>{5913fe1e-32e8-47b9-bfb9-d820074ee919}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="readme.txt">
+      <Filter>other</Filter>
+    </Text>
+    <Text Include="..\libex\libex_changes.txt">
+      <Filter>txt</Filter>
+    </Text>
+    <Text Include="..\libex\libex_ideas.txt">
+      <Filter>txt</Filter>
+    </Text>
+    <Text Include="..\libex\libex_property.txt">
+      <Filter>txt</Filter>
+    </Text>
+    <Text Include="..\libex\libex_readme.txt">
+      <Filter>txt</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\clibs\lib_zlib\crc32.h">
+      <Filter>libs\zlib\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\clibs\lib_zlib\deflate.h">
+      <Filter>libs\zlib\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\clibs\lib_zlib\gzguts.h">
+      <Filter>libs\zlib\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\clibs\lib_zlib\inffast.h">
+      <Filter>libs\zlib\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\clibs\lib_zlib\inffixed.h">
+      <Filter>libs\zlib\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\clibs\lib_zlib\inflate.h">
+      <Filter>libs\zlib\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\clibs\lib_zlib\inftrees.h">
+      <Filter>libs\zlib\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\clibs\lib_zlib\trees.h">
+      <Filter>libs\zlib\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\clibs\lib_zlib\zconf.h">
+      <Filter>libs\zlib\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\clibs\lib_zlib\zlib.h">
+      <Filter>libs\zlib\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\clibs\lib_zlib\zutil.h">
+      <Filter>libs\zlib\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\clibs\lib_zlib\lib_zlib_precompiled.h">
+      <Filter>libs\zlib\pch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_c_precompiled.h">
+      <Filter>libex\__Precompiled_Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_byte_array.hpp">
+      <Filter>libex\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_array.h">
+      <Filter>libex\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_byte_array.h">
+      <Filter>libex\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_bytes.h">
+      <Filter>libex\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_stringc.h">
+      <Filter>libex\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_csv.h">
+      <Filter>libex\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_number.h">
+      <Filter>libex\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_xml_reader.h">
+      <Filter>libex\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_string_class.h">
+      <Filter>libex\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_pdf.h">
+      <Filter>libex\Printing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_pdf_report.h">
+      <Filter>libex\Printing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_archive.h">
+      <Filter>libex\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_file.h">
+      <Filter>libex\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_ado_connection.h">
+      <Filter>libex\Database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_network.h">
+      <Filter>libex\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_http_server.h">
+      <Filter>libex\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_win_registry.h">
+      <Filter>libex\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_system.h">
+      <Filter>libex\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_mutex.h">
+      <Filter>libex\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_clipboard.h">
+      <Filter>libex\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_console.h">
+      <Filter>libex\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_clipboard.hpp">
+      <Filter>libex\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_console.hpp">
+      <Filter>libex\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_system.hpp">
+      <Filter>libex\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_mutex.hpp">
+      <Filter>libex\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_base.h">
+      <Filter>libex\__Unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_internal.h">
+      <Filter>libex\__Unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_libc.h">
+      <Filter>libex\__Unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_win32.h">
+      <Filter>libex\__Unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_canvas.h">
+      <Filter>libex\__Unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_color.h">
+      <Filter>libex\__Unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_config.h">
+      <Filter>libex\__Unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_variant_functions.h">
+      <Filter>libex\__Unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_crypto.h">
+      <Filter>libex\__Unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_font.h">
+      <Filter>libex\__Unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_hash.h">
+      <Filter>libex\__Unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_ignore_warnings.h">
+      <Filter>libex\__Unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_key.h">
+      <Filter>libex\__Unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_language.h">
+      <Filter>libex\__Unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_point.h">
+      <Filter>libex\__Unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_c_test.h">
+      <Filter>libex\__Unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_graphic_types.h">
+      <Filter>libex\__Unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_canvas.hpp">
+      <Filter>libex\__Unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_canvas_i.hpp">
+      <Filter>libex\__Unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_color.hpp">
+      <Filter>libex\__Unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_font.hpp">
+      <Filter>libex\__Unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_hash.hpp">
+      <Filter>libex\__Unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_key.hpp">
+      <Filter>libex\__Unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_language.hpp">
+      <Filter>libex\__Unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_property.hpp">
+      <Filter>libex\__Unsorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_archive.hpp">
+      <Filter>libex\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_file.hpp">
+      <Filter>libex\Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_logging.hpp">
+      <Filter>libex\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_logging.h">
+      <Filter>libex\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_html_functions.h">
+      <Filter>libex\HTML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_html_generator.h">
+      <Filter>libex\HTML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_html_list.h">
+      <Filter>libex\HTML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_http_app.h">
+      <Filter>libex\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\clibs\lib_sqlite3\lib_sqlite3_precompiled.h">
+      <Filter>libs\sqlite\pch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\clibs\lib_sqlite3\sqlite3.h">
+      <Filter>libs\sqlite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_functions.hpp">
+      <Filter>libex\General</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_functions.h">
+      <Filter>libex\General</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_dtime.hh">
+      <Filter>libex\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libex_dtime.h">
+      <Filter>libex\Data</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\clibs\lib_zlib\adler32.c">
+      <Filter>libs\zlib\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\clibs\lib_zlib\compress.c">
+      <Filter>libs\zlib\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\clibs\lib_zlib\crc32.c">
+      <Filter>libs\zlib\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\clibs\lib_zlib\deflate.c">
+      <Filter>libs\zlib\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\clibs\lib_zlib\gzclose.c">
+      <Filter>libs\zlib\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\clibs\lib_zlib\gzlib.c">
+      <Filter>libs\zlib\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\clibs\lib_zlib\gzread.c">
+      <Filter>libs\zlib\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\clibs\lib_zlib\gzwrite.c">
+      <Filter>libs\zlib\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\clibs\lib_zlib\infback.c">
+      <Filter>libs\zlib\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\clibs\lib_zlib\inffast.c">
+      <Filter>libs\zlib\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\clibs\lib_zlib\inflate.c">
+      <Filter>libs\zlib\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\clibs\lib_zlib\inftrees.c">
+      <Filter>libs\zlib\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\clibs\lib_zlib\trees.c">
+      <Filter>libs\zlib\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\clibs\lib_zlib\uncompr.c">
+      <Filter>libs\zlib\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\clibs\lib_zlib\zutil.c">
+      <Filter>libs\zlib\c</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\clibs\lib_zlib\lib_zlib_precompiled.c">
+      <Filter>libs\zlib\pch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libex_c_precompiled.c">
+      <Filter>libex\__Precompiled_Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libex_array.c">
+      <Filter>libex\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libex_byte_array.c">
+      <Filter>libex\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libex_bytes.c">
+      <Filter>libex\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libex_stringc.c">
+      <Filter>libex\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libex_csv.c">
+      <Filter>libex\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libex_string_class.c">
+      <Filter>libex\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libex_xml_reader.c">
+      <Filter>libex\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libex_number.c">
+      <Filter>libex\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libex_archive.c">
+      <Filter>libex\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libex_file.c">
+      <Filter>libex\Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libex_pdf.c">
+      <Filter>libex\Printing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libex_pdf_report.c">
+      <Filter>libex\Printing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libex_http_server.c">
+      <Filter>libex\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libex_network.c">
+      <Filter>libex\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libex_clipboard.c">
+      <Filter>libex\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libex_console.c">
+      <Filter>libex\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libex_mutex.c">
+      <Filter>libex\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libex_system.c">
+      <Filter>libex\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libex_win_registry.c">
+      <Filter>libex\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libex_ado_connection_oop.cpp">
+      <Filter>libex\Database</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libex_point.c">
+      <Filter>libex\__Unsorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libex_object_wrapper.inc.c">
+      <Filter>libex\__Unsorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libex_language.c">
+      <Filter>libex\__Unsorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libex_key.c">
+      <Filter>libex\__Unsorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libex_hash.c">
+      <Filter>libex\__Unsorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libex_font.c">
+      <Filter>libex\__Unsorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libex_crypto.c">
+      <Filter>libex\__Unsorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libex_variant_functions.c">
+      <Filter>libex\__Unsorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libex_color.c">
+      <Filter>libex\__Unsorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libex_canvas.c">
+      <Filter>libex\__Unsorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libex_libc.c">
+      <Filter>libex\__Unsorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libex_logging.c">
+      <Filter>libex\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libex_html_functions.c">
+      <Filter>libex\HTML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libex_html_generator.c">
+      <Filter>libex\HTML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libex_html_list.c">
+      <Filter>libex\HTML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libex_http_app.c">
+      <Filter>libex\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\clibs\lib_sqlite3\lib_sqlite3_precompiled.c">
+      <Filter>libs\sqlite\pch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\clibs\lib_sqlite3\sqlite3.c">
+      <Filter>libs\sqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libex_functions.c">
+      <Filter>libex\General</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libex_win32.c">
+      <Filter>libex_cl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libex_dtime.c">
+      <Filter>libex\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="libex_c_main.c" />
+    <ClCompile Include="..\tests\libex_dtime_tests.c">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\libex_file_tests.c">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tests\libex_string_tests.c">
+      <Filter>tests</Filter>
+    </ClCompile>
+    <ClCompile Include="libex_pdf_tests.c">
+      <Filter>tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

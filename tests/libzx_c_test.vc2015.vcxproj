@@ -1,0 +1,628 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="DEBUG_STATL|Win32">
+      <Configuration>DEBUG_STATL</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RELEASE_STATL|Win32">
+      <Configuration>RELEASE_STATL</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>libex_c_test</ProjectName>
+    <ProjectGuid>{C59F4852-A5E8-44C5-B5EE-BB738FF79EE7}</ProjectGuid>
+    <RootNamespace>libex_c_test</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140_xp</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140_xp</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.21005.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">
+    <OutDir>X:\user\projects\bin\vc2015\libex_c_test\release_statl\</OutDir>
+    <IntDir>X:\user\projects\bin\vc2015\libex_c_test\release_statl\intermediate\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">
+    <OutDir>X:\user\projects\bin\vc2015\libex_c_test\debug_statl\</OutDir>
+    <IntDir>X:\user\projects\bin\vc2015\libex_c_test\debug_statl\intermediate\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">
+    <Midl>
+      <TypeLibraryName>X:\user\projects\bin\vc2015\libex_c_test\release_statl\intermediate\libex_c_test.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <AdditionalIncludeDirectories>..;..\..\..\clibs\lib_sqlite3\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CONSOLE;NDEBUG;WIN32;LX_USE_ZLIB_COMPRESSION;</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <SmallerTypeCheck>false</SmallerTypeCheck>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>X:\user\projects\bin\vc2015\libex_c_test\release_statl\intermediate\libex_c_test.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>X:\user\projects\bin\vc2015\libex_c_test\release_statl\intermediate\</AssemblerListingLocation>
+      <ObjectFileName>X:\user\projects\bin\vc2015\libex_c_test\release_statl\intermediate\</ObjectFileName>
+      <ProgramDataBaseFileName>X:\user\projects\bin\vc2015\libex_c_test\release_statl\intermediate\</ProgramDataBaseFileName>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat />
+      <CompileAs>CompileAsC</CompileAs>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_AFXDLL;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0809</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <OutputFile>X:\user\projects\bin\vc2015\libex_c_test\release_statl\libex_c_test.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ProgramDatabaseFile>X:\user\projects\bin\vc2015\libex_c_test\release_statl\intermediate\libex_c_test.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">
+    <Midl>
+      <TypeLibraryName>X:\user\projects\bin\vc2015\libex_c_test\debug_statl\intermediate\libex_c_test.tlb</TypeLibraryName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..;..\..\..\clibs\lib_sqlite3\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CONSOLE;_DEBUG;WIN32;LX_USE_ZLIB_COMPRESSION;</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <SmallerTypeCheck>false</SmallerTypeCheck>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <FloatingPointExceptions>true</FloatingPointExceptions>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile>X:\user\projects\bin\vc2015\libex_c_test\debug_statl\intermediate\libex_c_test.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>X:\user\projects\bin\vc2015\libex_c_test\debug_statl\intermediate\</AssemblerListingLocation>
+      <ObjectFileName>X:\user\projects\bin\vc2015\libex_c_test\debug_statl\intermediate\</ObjectFileName>
+      <ProgramDataBaseFileName>X:\user\projects\bin\vc2015\libex_c_test\debug_statl\intermediate\</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level4</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <CompileAs>CompileAsC</CompileAs>
+      <UseFullPaths>true</UseFullPaths>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0809</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <OutputFile>X:\user\projects\bin\vc2015\libex_c_test\debug_statl\libex_c_test.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>X:\user\projects\bin\vc2015\libex_c_test\debug_statl\libex_c_test.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="..\libex\libex_changes.txt" />
+    <Text Include="..\libex\libex_ideas.txt" />
+    <Text Include="..\libex\libex_property.txt" />
+    <Text Include="..\libex\libex_readme.txt" />
+    <Text Include="readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\clibs\lib_sqlite3\lib_sqlite3_precompiled.h" />
+    <ClInclude Include="..\..\..\clibs\lib_sqlite3\sqlite3.h" />
+    <ClInclude Include="..\..\..\clibs\lib_zlib\crc32.h" />
+    <ClInclude Include="..\..\..\clibs\lib_zlib\deflate.h" />
+    <ClInclude Include="..\..\..\clibs\lib_zlib\gzguts.h" />
+    <ClInclude Include="..\..\..\clibs\lib_zlib\inffast.h" />
+    <ClInclude Include="..\..\..\clibs\lib_zlib\inffixed.h" />
+    <ClInclude Include="..\..\..\clibs\lib_zlib\inflate.h" />
+    <ClInclude Include="..\..\..\clibs\lib_zlib\inftrees.h" />
+    <ClInclude Include="..\..\..\clibs\lib_zlib\lib_zlib_precompiled.h" />
+    <ClInclude Include="..\..\..\clibs\lib_zlib\trees.h" />
+    <ClInclude Include="..\..\..\clibs\lib_zlib\zconf.h" />
+    <ClInclude Include="..\..\..\clibs\lib_zlib\zlib.h" />
+    <ClInclude Include="..\..\..\clibs\lib_zlib\zutil.h" />
+    <ClInclude Include="..\libex_ado_connection.h" />
+    <ClInclude Include="..\libex_archive.h" />
+    <ClInclude Include="..\libex_archive.hpp" />
+    <ClInclude Include="..\libex_array.h" />
+    <ClInclude Include="..\libex_base.h" />
+    <ClInclude Include="..\libex_internal.h" />
+    <ClInclude Include="..\libex_libc.h" />
+    <ClInclude Include="..\libex_http_app.h" />
+    <ClInclude Include="..\libex_win32.h" />
+    <ClInclude Include="..\libex_bytes.h" />
+    <ClInclude Include="..\libex_byte_array.h" />
+    <ClInclude Include="..\libex_byte_array.hpp" />
+    <ClInclude Include="..\libex_canvas.h" />
+    <ClInclude Include="..\libex_canvas.hpp" />
+    <ClInclude Include="..\libex_canvas_i.hpp" />
+    <ClInclude Include="..\libex_stringc.h" />
+    <ClInclude Include="..\libex_clipboard.h" />
+    <ClInclude Include="..\libex_clipboard.hpp" />
+    <ClInclude Include="..\libex_color.h" />
+    <ClInclude Include="..\libex_color.hpp" />
+    <ClInclude Include="..\libex_config.h" />
+    <ClInclude Include="..\libex_console.h" />
+    <ClInclude Include="..\libex_console.hpp" />
+    <ClInclude Include="..\libex_variant_functions.h" />
+    <ClInclude Include="..\libex_c_precompiled.h" />
+    <ClInclude Include="..\libex_crypto.h" />
+    <ClInclude Include="..\libex_csv.h" />
+    <ClInclude Include="..\libex_file.h" />
+    <ClInclude Include="..\libex_file.hpp" />
+    <ClInclude Include="..\libex_font.h" />
+    <ClInclude Include="..\libex_font.hpp" />
+    <ClInclude Include="..\libex_functions.h" />
+    <ClInclude Include="..\libex_functions.hpp" />
+    <ClInclude Include="..\libex_hash.h" />
+    <ClInclude Include="..\libex_hash.hpp" />
+    <ClInclude Include="..\libex_html_functions.h" />
+    <ClInclude Include="..\libex_html_generator.h" />
+    <ClInclude Include="..\libex_html_list.h" />
+    <ClInclude Include="..\libex_http_server.h" />
+    <ClInclude Include="..\libex_ignore_warnings.h" />
+    <ClInclude Include="..\libex_key.h" />
+    <ClInclude Include="..\libex_key.hpp" />
+    <ClInclude Include="..\libex_language.h" />
+    <ClInclude Include="..\libex_language.hpp" />
+    <ClInclude Include="..\libex_logging.h" />
+    <ClInclude Include="..\libex_logging.hpp" />
+    <ClInclude Include="..\libex_mutex.h" />
+    <ClInclude Include="..\libex_mutex.hpp" />
+    <ClInclude Include="..\libex_network.h" />
+    <ClInclude Include="..\libex_number.h" />
+    <ClInclude Include="..\libex_pdf.h" />
+    <ClInclude Include="..\libex_pdf_report.h" />
+    <ClInclude Include="..\libex_point.h" />
+    <ClInclude Include="..\libex_property.hpp" />
+    <ClInclude Include="..\libex_string_class.h" />
+    <ClInclude Include="..\libex_system.h" />
+    <ClInclude Include="..\libex_system.hpp" />
+    <ClInclude Include="..\libex_c_test.h" />
+    <ClInclude Include="..\libex_dtime.h" />
+    <ClInclude Include="..\libex_dtime.hh" />
+    <ClInclude Include="..\libex_graphic_types.h" />
+    <ClInclude Include="..\libex_win_registry.h" />
+    <ClInclude Include="..\libex_xml_reader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\clibs\lib_sqlite3\sqlite3.c">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">lib_sqlite3_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\lib_sqlite3_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">lib_sqlite3_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\lib_sqlite3_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\libex_ado_connection_oop.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">libex_c_precompiled_oop.hpp</PrecompiledHeaderFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">libex_c_precompiled_oop.hpp</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\libex_c_precompiled_oop.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\libex_c_precompiled_oop.pch</PrecompiledHeaderOutputFile>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">CompileAsCpp</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">CompileAsCpp</CompileAs>
+    </ClCompile>
+    <ClCompile Include="..\libex_archive.c">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\libex_array.c">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\libex_libc.c">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\libex_bytes.c">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\libex_byte_array.c">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\libex_canvas.c">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\libex_stringc.c">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\libex_clipboard.c">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\libex_color.c">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\libex_console.c">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\libex_variant_functions.c">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\libex_c_precompiled.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\libex_crypto.c">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\libex_csv.c">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\libex_file.c">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\libex_font.c">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\libex_functions.c">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\libex_hash.c">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\libex_html_functions.c">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\libex_html_generator.c">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\libex_html_list.c">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\libex_http_app.c">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\libex_http_server.c">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\libex_key.c">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\libex_language.c">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\libex_logging.c">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\libex_mutex.c">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\libex_network.c">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\libex_number.c">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\libex_object_wrapper.inc.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">true</ExcludedFromBuild>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\libex_pdf.c">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\libex_pdf_report.c">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\libex_point.c">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\libex_string_class.c">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\libex_system.c">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\libex_dtime.c">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\libex_win32.c">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\libex_win_registry.c">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\libex_xml_reader.c">
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">libex_c_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\libex_c_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\..\..\clibs\lib_zlib\adler32.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">lib_zlib_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\lib_zlib_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">lib_zlib_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\lib_zlib_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\..\..\clibs\lib_zlib\compress.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">lib_zlib_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\lib_zlib_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">lib_zlib_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\lib_zlib_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\..\..\clibs\lib_zlib\crc32.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">lib_zlib_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\lib_zlib_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">lib_zlib_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\lib_zlib_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\..\..\clibs\lib_zlib\deflate.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">lib_zlib_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\lib_zlib_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">lib_zlib_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\lib_zlib_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\..\..\clibs\lib_zlib\gzclose.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">lib_zlib_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\lib_zlib_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">lib_zlib_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\lib_zlib_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\..\..\clibs\lib_zlib\gzlib.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">lib_zlib_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\lib_zlib_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">lib_zlib_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\lib_zlib_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\..\..\clibs\lib_zlib\gzread.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">lib_zlib_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\lib_zlib_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">lib_zlib_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\lib_zlib_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\..\..\clibs\lib_zlib\gzwrite.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">lib_zlib_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\lib_zlib_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">lib_zlib_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\lib_zlib_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\..\..\clibs\lib_zlib\infback.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">lib_zlib_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\lib_zlib_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">lib_zlib_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\lib_zlib_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\..\..\clibs\lib_zlib\inffast.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">lib_zlib_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\lib_zlib_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">lib_zlib_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\lib_zlib_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\..\..\clibs\lib_zlib\inflate.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">lib_zlib_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\lib_zlib_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">lib_zlib_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\lib_zlib_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\..\..\clibs\lib_zlib\inftrees.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">lib_zlib_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\lib_zlib_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">lib_zlib_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\lib_zlib_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\..\..\clibs\lib_zlib\trees.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">lib_zlib_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\lib_zlib_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">lib_zlib_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\lib_zlib_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\..\..\clibs\lib_zlib\uncompr.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">lib_zlib_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\lib_zlib_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">lib_zlib_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\lib_zlib_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\..\..\clibs\lib_zlib\zutil.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">lib_zlib_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\lib_zlib_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">lib_zlib_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\lib_zlib_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\..\..\clibs\lib_zlib\lib_zlib_precompiled.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">lib_zlib_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\lib_zlib_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">lib_zlib_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\lib_zlib_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\..\..\clibs\lib_sqlite3\lib_sqlite3_precompiled.c">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">lib_sqlite3_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='DEBUG_STATL|Win32'">$(IntDir)\lib_sqlite3_precompiled.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">lib_sqlite3_precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeaderOutputFile Condition="'$(Configuration)|$(Platform)'=='RELEASE_STATL|Win32'">$(IntDir)\lib_sqlite3_precompiled.pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <ClCompile Include="..\tests\libex_dtime_tests.c" />
+    <ClCompile Include="..\tests\libex_file_tests.c" />
+    <ClCompile Include="..\tests\libex_string_tests.c" />
+    <ClCompile Include="libex_c_main.c" />
+    <ClCompile Include="libex_pdf_tests.c" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,12 @@
+The big ongoing change to the library is converting most code
+implementation from C++ to C, leaving only C++ wrappers.
+
+- All old C functions are prefixed with lx.
+
+- All converted C functions, macros and constants are
+  prefixed with lx.
+
+- lx prefix: anything that should stay in C++
+
+- lx prefix: everything that is C-only
+
